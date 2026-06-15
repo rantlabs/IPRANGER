@@ -34,7 +34,7 @@ ipranger_mac_arm64		ipranger_windows_32.exe
 main.go
 ```
 
-#### Command ipranger 192.168.1.0/27 
+#### Command: ipranger 192.168.1.0/27 
 ```
 ipranger 192.168.1.0/27 
 Address    : 192.168.1.0
@@ -47,22 +47,22 @@ HostMax    : 192.168.1.30
 Hosts/Net  : 30
 ```
 
-#### Command ipranger -network 192.168.1.129/27
+#### Command: ipranger -network 192.168.1.129/27
 ```
 ipranger -network 192.168.1.129/27
 192.168.1.128
 ```
-#### Command ipranger -broadcast 192.168.1.129/27
+#### Command: ipranger -broadcast 192.168.1.129/27
 ```
 ipranger -broadcast 192.168.1.129/27
 192.168.1.159
 ```
-#### Command ipranger -range 192.168.1.129/27
+#### Command: ipranger -range 192.168.1.129/27
 ```
 ipranger -range 192.168.1.129/27
 192.168.1.129 - 192.168.1.158  (30 hosts)
 ```
-#### Command ipranger -list 192.168.10.68/29 - Lists all useable addresses
+#### Command: ipranger -list 192.168.10.68/29 - Lists all useable addresses
 ```
 ipranger -list 192.168.10.68/29 
 192.168.10.65
